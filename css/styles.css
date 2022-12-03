@@ -1,0 +1,253 @@
+:root {
+  --color-title-background: #2e2f42;
+  --color-text: #434455;
+  --color-studio: #4d5ae5;
+  --alternative-color: #f4f4fd;
+  --bacground-color-text: #ffffff;
+  --hover-color: #434455;
+  --button-color: #E7E9FC;
+  --color-footer: #e7e9fc;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  color:  var(--color-title-background);
+  background-color: var(--bacground-color-text);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.main-tittle{
+  vertical-align: inherit;
+  font-size: 56px;
+  line-height: 1.07;
+  max-width: 492px;
+}
+
+.main-text{
+font-weight: 600;
+font-size: 56px;
+line-height: 1.07;
+/* or 107% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: var(--bacground-color-text);
+}
+
+.button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: 600;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-studio);
+  background-color: var(--button-color);
+  border: 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--bacground-color-text);
+  background-color: var(--color-studio);
+}
+
+
+.main-button {
+  font-family: 'Roboto';
+ font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.18;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--bacground-color-text);
+  background-color: var(--color-studio);
+  border: 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.main-button:active {
+  background-color: #404bbf;
+}
+
+
+.button-portfolio{
+  cursor: pointer;
+}
+
+.hero {
+  color: var(--bacground-color-text);
+  background-color: var(--color-title-background);
+  text-align: center;
+}
+
+.menu-link  {
+  color: var(--color-title-background);
+  font-weight: 600;
+}
+
+
+.rubric {
+font-weight: 600;
+font-size: 36px;
+line-height: 2.50;
+/* identical to box height, or 111% */
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color: var(--color-title-background);
+}
+
+.our-team {
+  background-color: var(--alternative-color);
+}
+
+.our-list {
+  background-color: var(--bacground-color-text);
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus{
+  color: var(--hover-color);
+}
+
+
+.link-hover { 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.50;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: var(--color-title-background);
+ }
+
+ .contact-hover {
+  /* Body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: var(--color-text);
+ }
+
+ .contact-hover:hover,
+ .contact-hover:focus{
+  color: var(--color-studio);
+ }
+
+.logotype {
+  color: var(--color-title-background);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+}
+
+.first-word {
+  color: var(--color-studio);
+}
+
+.adition-portfolio {
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.log-down {
+  color: var(--bacground-color-text);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+}
+
+.footer{
+  background-color: var(--color-title-background);
+  color: var(--color-footer);
+}
+
+.caption {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-title-background);
+}
+
+.text{
+  color: var(--color-text);
+}
+
+.adition-portfolio {
+  color: var(--color-title-background);
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.text-ind{
+font-weight: 600;
+font-size: 20px;
+line-height: 1.50;
+/* identical to box height, or 120% */
+
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: var(--color-title-background);
+
+}
+
+.text-paar{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
+/* or 150% */
+
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: var(--color-text);
+}
+
