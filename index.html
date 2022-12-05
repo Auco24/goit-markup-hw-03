@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
@@ -14,55 +15,59 @@
 <body class="body">
  
   <!--Шапка-->
-  <header class="page-header">
-   <nav class="nav">
-    <a href="./" class="link logotype log-up"><span class="first-word">WEB</span>STUDIO</a>
+  <header >
+    <div class="container nav">
+   
+    <a href="./" class="link logotype log-up"
+      ><span class="first-word">WEB</span>STUDIO</a>
+      <nav >
      <ul class="list menu-link ">
-        <li><a href="" class="link link-hover">Studio</a></li>
-        <li><a href="./portfolio.html" class="link link-hover">Portfolio</a></li>
-        <li><a href="" class="link link-hover">Contacts</a></li>
+        <li class="item"><a href="" class="link link-hover link-hover-second">Studio</a></li>
+        <li class="item"><a href="./portfolio.html" class="link link-hover">Portfolio</a></li>
+        <li class="item"><a href="" class="link link-hover">Contacts</a></li>
      </ul>
    </nav>
      <ul class="list link-contacts">
         <li><a href="info@devstudio.com" class="link contact-hover">info@devstudio.com</a></li>
         <li><a href="+11(000)111-11-11" class="link contact-hover">+11 (000) 111-11-11</a>
      </ul>
+    </div>
+  </header>
      
      <!--Hero-->
  <main>
-    <section class="hero">
-      <h1 class="main-tittle main-text">Effective Solutions for Your Business</h1>
-      <button type="button" class="main-button">Order Service</button> 
+    <section class="hero section">
+      <h1 class="main-tittle main-text ">Effective Solutions for Your Business</h1>
+      <button type="button" class="main-button ">Order Service</button> 
     </section>
-
-  </header>
+  
 
   
    <!--Section 1-->
-  <section> 
+  <section class="first-section section"> 
     <ul class="list">
-      <li>
+      <li class="main-list">
         <h3 class="text-ind">Strategy</h3>
-        <p class="text-paar">
+        <p class="text-paar p-first">
           Our goal is to identify the business
           problem to walk away with the perfect and creative solution.
         </p >
       </li>
-      <li>
+      <li class="main-list">
         <h3 class="text-ind">Punctuality</h3>
-        <p class="text-paar">
+        <p class="text-paar p-first">
           Bring the key message to the brand's audience for the best price within the shortest possible time.
         </p>
       </li>
-      <li>
+      <li class="main-list">
         <h3 class="text-ind">Diligence</h3>
-        <p class="text-paar">
+        <p class="text-paar p-first">
           Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
         </p>
       </li>
-      <li>
+      <li class="main-list">
         <h3 class="text-ind">Technologies</h3>
-        <p class="text-paar">
+        <p class="text-paar p-first">
           Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
         </p>
       </li>
@@ -70,9 +75,10 @@
   </section>
 
   <!--WAWD-->
-  <section>
+  <section class="doing section">
+    <div class="container">
     <h2 class="rubric">What are we doing</h2>
-    <ul class="list">
+    <ul class="list list-doing">
       <li>
         <a href=""><img src="./images/computer.jpg" alt="box1" width="360" height="300"></a>
       </li>
@@ -85,45 +91,59 @@
         <a href=""><img src="./images/comtel.jpg" alt="box3" width="360" height="300"></a>
       </li>
     </ul>
+  </div>
   </section>
 
   <!--Our Team-->
-  <section class="our-team">
+  <section class="our-team ">
+    <div class="container">
     <h2 class="rubric">Our Team</h2>
     <ul class="list our-list ul">
       <li class="our-team">
         <img src="./images/mark.jpg" alt="" width="264" height="260">
+        <div class="person-info">
         <h3 class="caption">Mark Guerrero</h3>
         <p class="text-paar">Product Designer</p>
+      </div>
       </li>
 
       <li class="our-team">
         <img src="./images/tom.jpg" alt="" width="264" height="260">
+        <div class="person-info">
         <h3 class="caption">Tom Ford</h3>
-        <p class="text-paar">Frontend Developer</pclass>
+        <p class="text-paar">Frontend Developer</p>
+        </div>
       </li>
 
       <li class="our-team">
         <img src="./images/camila.jpg" alt="" width="264" height="260">
+        <div class="person-info">
         <h3 class="caption">Camila Garcia</h3>
         <p class="text-paar">Marketing</p>
+      </div>
       </li>
 
       <li class="our-team">
         <img src="./images/daniel.jpg" alt="" width="264" height="260">
+        <div class="person-info">
         <h3 class="caption">Daniel Wilson</h3>
         <p class="text-paar">UI Designer</p>
+      </div>
       </li>
     </ul>
+  </div>
   </section>
  </main> 
 
   <!--Footer-->
   <footer class="footer">
-    <a href="./" class="link logotype log-down"><span class="first-word">WEB</span>STUDIO</a>
-    <p>
+    <div class="container">
+    <a href="./" class="link logotype log-down"
+    ><span class="first-word">WEB</span>STUDIO</a>
+    <p class="footer-text">
       Increase the flow of customers and sales for your business with digital marketing & growth solutions.
     </p>
+  </div>
   </footer>
 </body>
 </html>
