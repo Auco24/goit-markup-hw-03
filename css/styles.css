@@ -12,10 +12,6 @@
 
 html {
   box-sizing: border-box;
-  width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #e5e5e5;
 }
 
 :root {
@@ -42,7 +38,7 @@ html {
   vertical-align: inherit;
   font-size: 56px;
   line-height: 1.07;
-  max-width: 492px;
+  max-width: 496px;
 }
 
 .main-text{
@@ -375,14 +371,13 @@ color: var(--color-text);
 
 
 .section {
-  height: 65vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .hero {
-  width: 100%;
+  padding: 192px 0;
   color: var(--bacground-color-text);
   background-color: var(--color-title-background);
   text-align: center;
@@ -420,10 +415,8 @@ color: var(--color-text);
 
 .button {
   padding: 16px 32px;
-  min-width: 170px;
-  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
   border-radius: 4px;
-  color: var(--bgd-white);
+  color: var(--alternative-color);
   background-color: var(--iris);
   border: 1px solid transparent;
   cursor: pointer;
@@ -432,6 +425,7 @@ color: var(--color-text);
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.04em;
+  box-shadow: 0px 2px 1px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 1px 6px rgb(46 47 66 / 8%);
 }
 
 .button:hover,
@@ -440,8 +434,13 @@ color: var(--color-text);
   background-color: var(--color-studio);
 }
 
+.button-after {
+  background-color: var(--alternative-color);
+}
 
-
+.adition-portfolio {
+  margin-bottom: 8px;
+}
 
 
 .first-section{
@@ -496,17 +495,28 @@ color: var(--color-text);
 }
 
 .our-team {
-  padding-top: 120px;
-  padding-bottom: 120px;
-
   background-color: var(--alternative-color);
+  margin-bottom: 120px;
 }
+
+.caption {
+  margin-bottom: 8px;
+}
+
 
 .our-team ul {
   display: flex;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
+}
+
+.our-team {
+  background-color: var(--bacground-color-text);
+}
+
+.our-team-item {
+  margin-bottom: 32px
 }
 
 .rubric {
@@ -518,7 +528,7 @@ color: var(--color-text);
 }
 .header {
   border-bottom: 0.5px solid #f4f4fd;
-  box-shadow: 0px 2px 1px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 1px 6px rgb(46 47 66 / 8%);
+  
 }
 .link-hover-second {
   margin-left: 77px;
@@ -562,7 +572,6 @@ color: var(--color-text);
 
 .ours-works > li {
   margin-bottom: 48px;
-  border-bottom: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
@@ -570,6 +579,9 @@ color: var(--color-text);
   padding-left: 16px;
   padding-top: 32px;
   padding-bottom: 32px;
+  border-left: 0.5px solid #f4f4fd;
+  border-bottom: 0.5px solid #f4f4fd;
+  border-right: 0.5px solid #f4f4fd;
 }
 
 .item-works:nth-last-child(-n + 3) {
@@ -583,4 +595,14 @@ color: var(--color-text);
 
 .item-works > a > img {
   display: block;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.shadow {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
